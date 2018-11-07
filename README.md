@@ -7,7 +7,7 @@
 - install git for cloning the github repository
 - clone or zip the github repository **https://github.com/Amir22010/aws-coffee-order-bot.git**
 - go to the root directory of the cloned project
-- use the example image for easy runing [cmd running](/path/to/img.jpg)
+- use the example image for easy runing ![cmd running](https://github.com/Amir22010/aws-coffee-order-bot/blob/master/running.JPG)
 - write **npm install** and press enter
 - write **npm start** and press enter
 - go to the **http://localhost:8000/parent.html**
