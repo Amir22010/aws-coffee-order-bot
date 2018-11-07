@@ -1,0 +1,27 @@
+{
+  "cognito": {
+    "poolId": "us-west-2:3ebab375-35ae-46ff-abe7-7b9a5499ce46"
+  },
+  "lex": {
+    "botName": "CoffeeBot",
+    "initialText": "You can ask me for help ordering (chai,coffee,smoothie,espresso,cappuccino,latte). Just type \"Can I get a (your coffee type)\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Can I get a (your coffee type)' to get started."
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "Order Coffee",
+    "toolbarLogo": "",
+    "pushInitialTextOnRestart": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true",
+    "shouldLoadIframeMinimized": true
+  }
+}

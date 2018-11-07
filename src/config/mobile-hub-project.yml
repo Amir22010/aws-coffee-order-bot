@@ -1,0 +1,46 @@
+--- !com.amazonaws.mobilehub.v0.Project
+apps: 
+  web: !com.amazonaws.mobilehub.v0.AppDO {}
+features: 
+  bots: !com.amazonaws.mobilehub.v0.Bots
+    components: 
+      CoffeeBot: !com.amazonaws.mobilehub.v0.Bot
+        attributes: 
+          childDirected: true
+          description: ""
+          existing: true
+          template: bot-import
+  content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery
+    attributes: 
+      enabled: true
+      visibility: public-global
+    components: 
+      release: !com.amazonaws.mobilehub.v0.Bucket {}
+  mobile-analytics: !com.amazonaws.mobilehub.v0.Pinpoint
+    components: 
+      analytics: !com.amazonaws.mobilehub.v0.PinpointAnalytics {}
+  sign-in: !com.amazonaws.mobilehub.v0.SignIn {}
+name: CoffeeBotWeb
+region: us-west-2
+uploads:
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: index.html
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: parent.html
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: lex-web-ui.js
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: lex-web-ui-loader.js
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: lex-web-ui-loader.css
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: lex-web-ui.css
+    targetS3Bucket: hosting
+  - !com.amazonaws.mobilehub.v0.Upload
+    fileName: lex-web-ui-loader-config.json
+    targetS3Bucket: hosting
