@@ -17,5 +17,5 @@
 "small"
 "right"
 
-Talk with bot and order your favourite coffee :coffee:
+Talk with bot and order your favourite coffee :coffee: :relaxed: :coffee:
 ![Image](https://raw.githubusercontent.com/Amir22010/aws-coffee-order-bot/master/coffee.JPG)
