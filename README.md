@@ -16,3 +16,6 @@
 - verify text/voice conversational "Can I get a coffee"
 "small"
 "right"
+
+Talk with bot and order your favourite coffee :coffee:
+![Image](https://raw.githubusercontent.com/Amir22010/aws-coffee-order-bot/master/coffee.JPG)
